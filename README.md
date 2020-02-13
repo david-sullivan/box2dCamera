@@ -17,3 +17,6 @@ I'm not a c++ programmer, so i am sure there is a lot in the code that could be 
 If you have any suggestions, please let me know.
 
 I have tried using similar code with streaming video, and it always quits after a few minutes. I would love to figure that out.
+
+Getting back to this after a while, i realized that triangulating the contours was an uneccesary step.
+Also i found a couple of examples (like this https://www.youtube.com/watch?v=d3URBJLciEw by Lewis Lepton) that turned the opencv contour into a box2d polyline. Much better and dependable  performance.
